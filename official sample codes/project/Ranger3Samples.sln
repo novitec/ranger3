@@ -1,0 +1,121 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GenIRanger", "GenIRanger\GenIRanger.vcxproj", "{D0137AEA-59FB-419F-B51A-1181A5EA359B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SampleCommon", "SampleCommon\SampleCommon.vcxproj", "{5F579E6A-8083-4F11-85CD-7BC6B68D4B3B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D0137AEA-59FB-419F-B51A-1181A5EA359B} = {D0137AEA-59FB-419F-B51A-1181A5EA359B}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SampleContinuousAcquisition", "SampleContinuousAcquisition\SampleContinuousAcquisition.vcxproj", "{1DBD4EA2-1F50-49B8-B3AF-EFA03C629412}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5F579E6A-8083-4F11-85CD-7BC6B68D4B3B} = {5F579E6A-8083-4F11-85CD-7BC6B68D4B3B}
+		{D0137AEA-59FB-419F-B51A-1181A5EA359B} = {D0137AEA-59FB-419F-B51A-1181A5EA359B}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SampleEventLogging", "SampleEventLogging\SampleEventLogging.vcxproj", "{91BDB7C3-A372-47A2-B367-3920D72B69FF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5F579E6A-8083-4F11-85CD-7BC6B68D4B3B} = {5F579E6A-8083-4F11-85CD-7BC6B68D4B3B}
+		{D0137AEA-59FB-419F-B51A-1181A5EA359B} = {D0137AEA-59FB-419F-B51A-1181A5EA359B}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SampleExportParameters", "SampleExportParameters\SampleExportParameters.vcxproj", "{3D639A0F-741A-40E2-92BB-8A8744C7D1DF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5F579E6A-8083-4F11-85CD-7BC6B68D4B3B} = {5F579E6A-8083-4F11-85CD-7BC6B68D4B3B}
+		{D0137AEA-59FB-419F-B51A-1181A5EA359B} = {D0137AEA-59FB-419F-B51A-1181A5EA359B}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SampleImportParameters", "SampleImportParameters\SampleImportParameters.vcxproj", "{AA4922D7-C2F2-4372-8CBA-BB1BE963C31A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5F579E6A-8083-4F11-85CD-7BC6B68D4B3B} = {5F579E6A-8083-4F11-85CD-7BC6B68D4B3B}
+		{D0137AEA-59FB-419F-B51A-1181A5EA359B} = {D0137AEA-59FB-419F-B51A-1181A5EA359B}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SampleSaveRangeBuffer", "SampleSaveRangeBuffer\SampleSaveRangeBuffer.vcxproj", "{DA93FB03-A1B7-436C-B944-9E1BF0E17F3A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5F579E6A-8083-4F11-85CD-7BC6B68D4B3B} = {5F579E6A-8083-4F11-85CD-7BC6B68D4B3B}
+		{D0137AEA-59FB-419F-B51A-1181A5EA359B} = {D0137AEA-59FB-419F-B51A-1181A5EA359B}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SampleSaveSensorBuffer", "SampleSaveSensorBuffer\SampleSaveSensorBuffer.vcxproj", "{5ED1A742-D67F-474D-87E6-6AC70BB64F28}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5F579E6A-8083-4F11-85CD-7BC6B68D4B3B} = {5F579E6A-8083-4F11-85CD-7BC6B68D4B3B}
+		{D0137AEA-59FB-419F-B51A-1181A5EA359B} = {D0137AEA-59FB-419F-B51A-1181A5EA359B}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SampleMultiCamera", "SampleMultiCamera\SampleMultiCamera.vcxproj", "{68E50130-E826-449B-8EDC-38506B9E06D0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5F579E6A-8083-4F11-85CD-7BC6B68D4B3B} = {5F579E6A-8083-4F11-85CD-7BC6B68D4B3B}
+		{D0137AEA-59FB-419F-B51A-1181A5EA359B} = {D0137AEA-59FB-419F-B51A-1181A5EA359B}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SampleForceIP", "SampleForceIP\SampleForceIP.vcxproj", "{3ED22D86-298E-4ACA-BAFE-9D8A53CE7669}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5F579E6A-8083-4F11-85CD-7BC6B68D4B3B} = {5F579E6A-8083-4F11-85CD-7BC6B68D4B3B}
+		{D0137AEA-59FB-419F-B51A-1181A5EA359B} = {D0137AEA-59FB-419F-B51A-1181A5EA359B}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SampleChunkData", "SampleChunkData\SampleChunkData.vcxproj", "{6008286D-3DD2-4087-803A-89921F74B8DB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5F579E6A-8083-4F11-85CD-7BC6B68D4B3B} = {5F579E6A-8083-4F11-85CD-7BC6B68D4B3B}
+		{D0137AEA-59FB-419F-B51A-1181A5EA359B} = {D0137AEA-59FB-419F-B51A-1181A5EA359B}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0137AEA-59FB-419F-B51A-1181A5EA359B}.Debug|x64.ActiveCfg = Debug|x64
+		{D0137AEA-59FB-419F-B51A-1181A5EA359B}.Debug|x64.Build.0 = Debug|x64
+		{D0137AEA-59FB-419F-B51A-1181A5EA359B}.Release|x64.ActiveCfg = Release|x64
+		{D0137AEA-59FB-419F-B51A-1181A5EA359B}.Release|x64.Build.0 = Release|x64
+		{5F579E6A-8083-4F11-85CD-7BC6B68D4B3B}.Debug|x64.ActiveCfg = Debug|x64
+		{5F579E6A-8083-4F11-85CD-7BC6B68D4B3B}.Debug|x64.Build.0 = Debug|x64
+		{5F579E6A-8083-4F11-85CD-7BC6B68D4B3B}.Release|x64.ActiveCfg = Release|x64
+		{5F579E6A-8083-4F11-85CD-7BC6B68D4B3B}.Release|x64.Build.0 = Release|x64
+		{1DBD4EA2-1F50-49B8-B3AF-EFA03C629412}.Debug|x64.ActiveCfg = Debug|x64
+		{1DBD4EA2-1F50-49B8-B3AF-EFA03C629412}.Debug|x64.Build.0 = Debug|x64
+		{1DBD4EA2-1F50-49B8-B3AF-EFA03C629412}.Release|x64.ActiveCfg = Release|x64
+		{1DBD4EA2-1F50-49B8-B3AF-EFA03C629412}.Release|x64.Build.0 = Release|x64
+		{91BDB7C3-A372-47A2-B367-3920D72B69FF}.Debug|x64.ActiveCfg = Debug|x64
+		{91BDB7C3-A372-47A2-B367-3920D72B69FF}.Debug|x64.Build.0 = Debug|x64
+		{91BDB7C3-A372-47A2-B367-3920D72B69FF}.Release|x64.ActiveCfg = Release|x64
+		{91BDB7C3-A372-47A2-B367-3920D72B69FF}.Release|x64.Build.0 = Release|x64
+		{3D639A0F-741A-40E2-92BB-8A8744C7D1DF}.Debug|x64.ActiveCfg = Debug|x64
+		{3D639A0F-741A-40E2-92BB-8A8744C7D1DF}.Debug|x64.Build.0 = Debug|x64
+		{3D639A0F-741A-40E2-92BB-8A8744C7D1DF}.Release|x64.ActiveCfg = Release|x64
+		{3D639A0F-741A-40E2-92BB-8A8744C7D1DF}.Release|x64.Build.0 = Release|x64
+		{AA4922D7-C2F2-4372-8CBA-BB1BE963C31A}.Debug|x64.ActiveCfg = Debug|x64
+		{AA4922D7-C2F2-4372-8CBA-BB1BE963C31A}.Debug|x64.Build.0 = Debug|x64
+		{AA4922D7-C2F2-4372-8CBA-BB1BE963C31A}.Release|x64.ActiveCfg = Release|x64
+		{AA4922D7-C2F2-4372-8CBA-BB1BE963C31A}.Release|x64.Build.0 = Release|x64
+		{DA93FB03-A1B7-436C-B944-9E1BF0E17F3A}.Debug|x64.ActiveCfg = Debug|x64
+		{DA93FB03-A1B7-436C-B944-9E1BF0E17F3A}.Debug|x64.Build.0 = Debug|x64
+		{DA93FB03-A1B7-436C-B944-9E1BF0E17F3A}.Release|x64.ActiveCfg = Release|x64
+		{DA93FB03-A1B7-436C-B944-9E1BF0E17F3A}.Release|x64.Build.0 = Release|x64
+		{5ED1A742-D67F-474D-87E6-6AC70BB64F28}.Debug|x64.ActiveCfg = Debug|x64
+		{5ED1A742-D67F-474D-87E6-6AC70BB64F28}.Debug|x64.Build.0 = Debug|x64
+		{5ED1A742-D67F-474D-87E6-6AC70BB64F28}.Release|x64.ActiveCfg = Release|x64
+		{5ED1A742-D67F-474D-87E6-6AC70BB64F28}.Release|x64.Build.0 = Release|x64
+		{68E50130-E826-449B-8EDC-38506B9E06D0}.Debug|x64.ActiveCfg = Debug|x64
+		{68E50130-E826-449B-8EDC-38506B9E06D0}.Debug|x64.Build.0 = Debug|x64
+		{68E50130-E826-449B-8EDC-38506B9E06D0}.Release|x64.ActiveCfg = Release|x64
+		{68E50130-E826-449B-8EDC-38506B9E06D0}.Release|x64.Build.0 = Release|x64
+		{3ED22D86-298E-4ACA-BAFE-9D8A53CE7669}.Debug|x64.ActiveCfg = Debug|x64
+		{3ED22D86-298E-4ACA-BAFE-9D8A53CE7669}.Debug|x64.Build.0 = Debug|x64
+		{3ED22D86-298E-4ACA-BAFE-9D8A53CE7669}.Release|x64.ActiveCfg = Release|x64
+		{3ED22D86-298E-4ACA-BAFE-9D8A53CE7669}.Release|x64.Build.0 = Release|x64
+		{6008286D-3DD2-4087-803A-89921F74B8DB}.Debug|x64.ActiveCfg = Debug|x64
+		{6008286D-3DD2-4087-803A-89921F74B8DB}.Debug|x64.Build.0 = Debug|x64
+		{6008286D-3DD2-4087-803A-89921F74B8DB}.Release|x64.ActiveCfg = Release|x64
+		{6008286D-3DD2-4087-803A-89921F74B8DB}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
